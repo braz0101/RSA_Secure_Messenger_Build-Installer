@@ -10,15 +10,14 @@ Ce dépôt contient tout le nécessaire pour :
 ```perl
 rsa_secure_messenger_installer/
 ├── pyinstaller/
-│   ├── main.spec  # Fichier de configuration PyInstaller personnalisé
-│   └── icon.ico   # Icône de l'application (affichée dans l'EXE) 
+│   ├── main.spec     # Fichier de configuration PyInstaller personnalisé
+│   └── icon.ico      # Icône de l'application (affichée dans l'EXE)
 ├── inno_setup/
-│   ├── setup.iss  # Script Inno Setup pour créer l’installeur
-│   └── icon.ico   # Icône pour l’installeur (raccourcis, etc.)
-├── dist/          # Contient l’exécutable généré
-├── build/         # Fichiers temporaires de PyInstaller lorsqu'on exécute
-├── installer      # Contenant l'exécutable pour installer le programme
-pyinstaller
+│   ├── setup.iss     # Script Inno Setup pour créer l’installeur
+│   └── icon.ico      # Icône pour l’installeur (raccourcis, etc.)
+├── dist/             # Contient l’exécutable généré
+├── build/            # Fichiers temporaires de PyInstaller
+├── installer/        # Contient le fichier .exe de l’installeur généré par Inno Setup
 ├── .gitignore
 └── README.md
 ```
