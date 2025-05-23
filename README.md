@@ -16,7 +16,9 @@ rsa_secure_messenger_installer/
 │   ├── setup.iss  # Script Inno Setup pour créer l’installeur
 │   └── icon.ico   # Icône pour l’installeur (raccourcis, etc.)
 ├── dist/          # Contient l’exécutable généré
-├── build/         # Fichiers temporaires de PyInstaller lorsqu'on exécute pyinstaller
+├── build/         # Fichiers temporaires de PyInstaller lorsqu'on exécute
+├── installer      # Contenant l'exécutable pour installer le programme
+pyinstaller
 ├── .gitignore
 └── README.md
 ```
