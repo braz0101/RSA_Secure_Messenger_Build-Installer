@@ -58,18 +58,38 @@ pyinstaller main.spec
 ---
 
 ## 🚀 Installation
+L’installeur est situé dans le dossier installer/. Lorsque vous exécutez Setup_RSA_Secure_Messenger.exe, l’assistant vous proposera de choisir un dossier d’installation.
 
-L’installeur :
-- Copie l’application dans C:\Program Files\SecureMessenger\
-- Crée un raccourci sur le Bureau
-- Ajoute une entrée dans le menu Démarrer
-- Supprime tout proprement à la désinstallation
+---
+
+## ⚠️ Choix du dossier – Important :
+Option 1 – C:\Program Files\... :
+Vous devrez exécuter l'application en tant qu'administrateur (clic droit → "Exécuter en tant qu’administrateur"). Sinon, certaines opérations comme l’écriture de logs ou la sauvegarde de clés peuvent échouer.
+
+Option 2 – Dossier personnel (C:\Users\votre_nom\...) ✅
+Installation dans un dossier personnel évite les problèmes de permissions. L’application fonctionnera normalement sans droits administrateur.
+
+✅ Recommandation : pour une utilisation simple, choisissez un répertoire personnel.
 
 ---
 
 ## 📝 Notes
+L’icône personnalisée est intégrée à l’exécutable via le .spec.
 
-- L’icône personnalisée est intégrée à l’exécutable via le .spec.
-- Le nom final de l’exécutable est SecureMessenger.exe.
+Le nom final de l’exécutable est SecureMessenger.exe.
 
-📃 Licence
+---
+
+## ⚠️ Important
+Les dossiers dist/ (exécutables PyInstaller) et installer/ (installeur Inno Setup) sont absents du dépôt GitHub car ils sont trop volumineux.
+
+Pour générer ces dossiers, veuillez suivre les étapes de compilation et de création d’installeur décrites ci-dessus.
+
+---
+
+## 📃 Licence
+Ce projet est sous licence MIT.
+
+
+---
+
