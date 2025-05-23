@@ -85,7 +85,10 @@ Les dossiers dist/ (exécutables PyInstaller) et installer/ (installeur Inno Set
 
 Pour générer ces dossiers, veuillez suivre les étapes de compilation et de création d’installeur décrites ci-dessus.
 
+---
+
 ## 🛠️ Quelques captures d'écrans
+
 <img width="632" alt="10" src="https://github.com/user-attachments/assets/160b6213-c8e5-4a56-be93-7f55189f611b" />
 <img width="605" alt="11" src="https://github.com/user-attachments/assets/0bb1c0d0-cade-4792-8433-f7167606943c" />
 <img width="605" alt="12" src="https://github.com/user-attachments/assets/1ac64de8-a8e4-4429-987d-2c0f3a4a8605" />
@@ -96,6 +99,7 @@ Pour générer ces dossiers, veuillez suivre les étapes de compilation et de cr
 <img width="585" alt="17" src="https://github.com/user-attachments/assets/2a304d01-e820-4ce4-93f5-79573d5fa5e9" />
 <img width="566" alt="18" src="https://github.com/user-attachments/assets/7e818793-98fe-4e7c-96cd-e4b24d6ad8c6" />
 <img width="667" alt="19" src="https://github.com/user-attachments/assets/8cbb9e27-b3e8-4d2e-b825-06f01e2e1e6c" />
+<img width="620" alt="21" src="https://github.com/user-attachments/assets/7a5263a2-f9e9-4f80-a49e-1d23a9baf6ad" />
 <img width="862" alt="20" src="https://github.com/user-attachments/assets/f77d422c-61da-4342-b7ef-b2073a89a1e1" />
 
 ---
