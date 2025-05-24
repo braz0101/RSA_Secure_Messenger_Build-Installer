@@ -50,15 +50,15 @@ pyinstaller main.spec
 - Télécharger et installer Inno Setup
 
 ### Compilation :
-- Ouvrir inno_setup/rsa_secure_messenger.iss avec l’éditeur Inno Setup.
+- Ouvrir inno_setup/setup.iss avec l’éditeur Inno Setup.
 - Cliquer sur "Compiler".
 
-📁 Résultat : un fichier Setup_RSA_Secure_Messenger.exe dans le dossier de sortie.
+📁 Résultat : un fichier Setup_RSA_Secure_Messenger.exe dans le dossier de sortie (Output/).
 
 ---
 
 ## 🚀 Installation
-L’installeur est situé dans le dossier installer/. Lorsque vous exécutez Setup_RSA_Secure_Messenger.exe, l’assistant vous proposera de choisir un dossier d’installation.
+L’installeur est situé dans le dossier installer/ (Output/). Lorsque vous exécutez Setup_RSA_Secure_Messenger.exe, l’assistant vous proposera de choisir un dossier d’installation.
 
 ---
 
